@@ -41,3 +41,20 @@
     }
 ]
 ```
+
+
+### 获取分支详情
+```https://api.github.com/repos/xlzy520/github-api-test-repo/git/refs/heads/main``` `GET`
+#### 响应
+```js
+ {
+        "ref": "refs/heads/main",
+        "node_id": "REF_kwDOGlcLja9yZWZzL2hlYWRzL21haW4",
+        "url": "https://api.github.com/repos/xlzy520/github-api-test-repo/git/refs/heads/main",
+        "object": {
+            "sha": "331540a9a2661993e58b4361929246edefcfbbb4",
+            "type": "commit",
+            "url": "https://api.github.com/repos/xlzy520/github-api-test-repo/git/commits/331540a9a2661993e58b4361929246edefcfbbb4"
+        }
+    }
+```
